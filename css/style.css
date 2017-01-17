@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+#pag-principal{
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+
+
+
+
+#hijo1 {
+
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.list li {
+  display: inline;
+}
+
+#hijo1 > img {
+  height: 50px;
+  justify-content: center;
+}
+
+#hijo2 {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background: url("../img/web_img_1_HERO.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#hijo3 {
+  display: flex;
+  width: 100%;
+  padding-right: 1rem;
+
+
+
+}
+
+#fotos1 {
+  flex:1;
+  padding: 50px;
+
+
+
+
+}
+#fotos1 >img {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#hijo4{
+  display: flex;
+  width: 100%;
+  padding-right: 1rem;
+}
+
+#fotos2{
+  flex:1;
+  padding: 50px;
+}
+
+#fotos2 > img {
+  width: 100%;
+
+}
